@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22C5D0E91CEB9AA300E18701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C5D0E81CEB9AA300E18701 /* main.m */; };
+		22C5D0EC1CEB9AA300E18701 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C5D0EB1CEB9AA300E18701 /* AppDelegate.m */; };
+		22C5D0EF1CEB9AA300E18701 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C5D0EE1CEB9AA300E18701 /* FirstViewController.m */; };
+		22C5D0F21CEB9AA300E18701 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C5D0F11CEB9AA300E18701 /* SecondViewController.m */; };
+		22C5D0F51CEB9AA300E18701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C5D0F31CEB9AA300E18701 /* Main.storyboard */; };
+		22C5D0F71CEB9AA300E18701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C5D0F61CEB9AA300E18701 /* Assets.xcassets */; };
+		22C5D0FA1CEB9AA300E18701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C5D0F81CEB9AA300E18701 /* LaunchScreen.storyboard */; };
+		22C5D1051CEB9AA300E18701 /* TyphoonIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C5D1041CEB9AA300E18701 /* TyphoonIssueTests.m */; };
+		22C5D1101CEB9AA300E18701 /* TyphoonIssueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C5D10F1CEB9AA300E18701 /* TyphoonIssueUITests.m */; };
+		22C5D12A1CEBA17200E18701 /* Typhoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C5D1251CEBA0E700E18701 /* Typhoon.framework */; };
+		22C5D12B1CEBA17200E18701 /* Typhoon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22C5D1251CEBA0E700E18701 /* Typhoon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		22C5D12F1CEBA1E900E18701 /* Assembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C5D12E1CEBA1E900E18701 /* Assembly.m */; };
+		22C5D1321CEBA4F900E18701 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C5D1311CEBA4F900E18701 /* Model.m */; };
+		22C5D1371CEBAA9700E18701 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C5D1361CEBAA9700E18701 /* Second.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22C5D1011CEB9AA300E18701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C5D0DC1CEB9AA300E18701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C5D0E31CEB9AA300E18701;
+			remoteInfo = TyphoonIssue;
+		};
+		22C5D10C1CEB9AA300E18701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22C5D0DC1CEB9AA300E18701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C5D0E31CEB9AA300E18701;
+			remoteInfo = TyphoonIssue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22C5D12C1CEBA17200E18701 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22C5D12B1CEBA17200E18701 /* Typhoon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		22C5D0E41CEB9AA300E18701 /* TyphoonIssue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyphoonIssue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C5D0E81CEB9AA300E18701 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22C5D0EA1CEB9AA300E18701 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22C5D0EB1CEB9AA300E18701 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22C5D0ED1CEB9AA300E18701 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		22C5D0EE1CEB9AA300E18701 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		22C5D0F01CEB9AA300E18701 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		22C5D0F11CEB9AA300E18701 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		22C5D0F41CEB9AA300E18701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22C5D0F61CEB9AA300E18701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22C5D0F91CEB9AA300E18701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22C5D0FB1CEB9AA300E18701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C5D1001CEB9AA300E18701 /* TyphoonIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyphoonIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C5D1041CEB9AA300E18701 /* TyphoonIssueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyphoonIssueTests.m; sourceTree = "<group>"; };
+		22C5D1061CEB9AA300E18701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C5D10B1CEB9AA300E18701 /* TyphoonIssueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyphoonIssueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C5D10F1CEB9AA300E18701 /* TyphoonIssueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TyphoonIssueUITests.m; sourceTree = "<group>"; };
+		22C5D1111CEB9AA300E18701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C5D1251CEBA0E700E18701 /* Typhoon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Typhoon.framework; path = Carthage/Build/iOS/Typhoon.framework; sourceTree = "<group>"; };
+		22C5D12D1CEBA1E900E18701 /* Assembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assembly.h; sourceTree = "<group>"; };
+		22C5D12E1CEBA1E900E18701 /* Assembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assembly.m; sourceTree = "<group>"; };
+		22C5D1301CEBA4F900E18701 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		22C5D1311CEBA4F900E18701 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		22C5D1361CEBAA9700E18701 /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C5D0E11CEB9AA300E18701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C5D12A1CEBA17200E18701 /* Typhoon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C5D0FD1CEB9AA300E18701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C5D1081CEB9AA300E18701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C5D0DB1CEB9AA300E18701 = {
+			isa = PBXGroup;
+			children = (
+				22C5D0E61CEB9AA300E18701 /* TyphoonIssue */,
+				22C5D1031CEB9AA300E18701 /* TyphoonIssueTests */,
+				22C5D10E1CEB9AA300E18701 /* TyphoonIssueUITests */,
+				22C5D1221CEBA07400E18701 /* Frameworks */,
+				22C5D0E51CEB9AA300E18701 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22C5D0E51CEB9AA300E18701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22C5D0E41CEB9AA300E18701 /* TyphoonIssue.app */,
+				22C5D1001CEB9AA300E18701 /* TyphoonIssueTests.xctest */,
+				22C5D10B1CEB9AA300E18701 /* TyphoonIssueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22C5D0E61CEB9AA300E18701 /* TyphoonIssue */ = {
+			isa = PBXGroup;
+			children = (
+				22C5D0EA1CEB9AA300E18701 /* AppDelegate.h */,
+				22C5D0EB1CEB9AA300E18701 /* AppDelegate.m */,
+				22C5D12D1CEBA1E900E18701 /* Assembly.h */,
+				22C5D12E1CEBA1E900E18701 /* Assembly.m */,
+				22C5D0F61CEB9AA300E18701 /* Assets.xcassets */,
+				22C5D0ED1CEB9AA300E18701 /* FirstViewController.h */,
+				22C5D0EE1CEB9AA300E18701 /* FirstViewController.m */,
+				22C5D0FB1CEB9AA300E18701 /* Info.plist */,
+				22C5D0F81CEB9AA300E18701 /* LaunchScreen.storyboard */,
+				22C5D0F31CEB9AA300E18701 /* Main.storyboard */,
+				22C5D1301CEBA4F900E18701 /* Model.h */,
+				22C5D1311CEBA4F900E18701 /* Model.m */,
+				22C5D1361CEBAA9700E18701 /* Second.storyboard */,
+				22C5D0F01CEB9AA300E18701 /* SecondViewController.h */,
+				22C5D0F11CEB9AA300E18701 /* SecondViewController.m */,
+				22C5D0E71CEB9AA300E18701 /* Supporting Files */,
+			);
+			path = TyphoonIssue;
+			sourceTree = "<group>";
+		};
+		22C5D0E71CEB9AA300E18701 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22C5D0E81CEB9AA300E18701 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22C5D1031CEB9AA300E18701 /* TyphoonIssueTests */ = {
+			isa = PBXGroup;
+			children = (
+				22C5D1041CEB9AA300E18701 /* TyphoonIssueTests.m */,
+				22C5D1061CEB9AA300E18701 /* Info.plist */,
+			);
+			path = TyphoonIssueTests;
+			sourceTree = "<group>";
+		};
+		22C5D10E1CEB9AA300E18701 /* TyphoonIssueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22C5D10F1CEB9AA300E18701 /* TyphoonIssueUITests.m */,
+				22C5D1111CEB9AA300E18701 /* Info.plist */,
+			);
+			path = TyphoonIssueUITests;
+			sourceTree = "<group>";
+		};
+		22C5D1221CEBA07400E18701 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22C5D1251CEBA0E700E18701 /* Typhoon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22C5D0E31CEB9AA300E18701 /* TyphoonIssue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C5D1141CEB9AA300E18701 /* Build configuration list for PBXNativeTarget "TyphoonIssue" */;
+			buildPhases = (
+				22C5D0E01CEB9AA300E18701 /* Sources */,
+				22C5D0E11CEB9AA300E18701 /* Frameworks */,
+				22C5D0E21CEB9AA300E18701 /* Resources */,
+				22C5D12C1CEBA17200E18701 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TyphoonIssue;
+			productName = TyphoonIssue;
+			productReference = 22C5D0E41CEB9AA300E18701 /* TyphoonIssue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22C5D0FF1CEB9AA300E18701 /* TyphoonIssueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C5D1171CEB9AA300E18701 /* Build configuration list for PBXNativeTarget "TyphoonIssueTests" */;
+			buildPhases = (
+				22C5D0FC1CEB9AA300E18701 /* Sources */,
+				22C5D0FD1CEB9AA300E18701 /* Frameworks */,
+				22C5D0FE1CEB9AA300E18701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C5D1021CEB9AA300E18701 /* PBXTargetDependency */,
+			);
+			name = TyphoonIssueTests;
+			productName = TyphoonIssueTests;
+			productReference = 22C5D1001CEB9AA300E18701 /* TyphoonIssueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22C5D10A1CEB9AA300E18701 /* TyphoonIssueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C5D11A1CEB9AA300E18701 /* Build configuration list for PBXNativeTarget "TyphoonIssueUITests" */;
+			buildPhases = (
+				22C5D1071CEB9AA300E18701 /* Sources */,
+				22C5D1081CEB9AA300E18701 /* Frameworks */,
+				22C5D1091CEB9AA300E18701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22C5D10D1CEB9AA300E18701 /* PBXTargetDependency */,
+			);
+			name = TyphoonIssueUITests;
+			productName = TyphoonIssueUITests;
+			productReference = 22C5D10B1CEB9AA300E18701 /* TyphoonIssueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22C5D0DC1CEB9AA300E18701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Six Actual Software";
+				TargetAttributes = {
+					22C5D0E31CEB9AA300E18701 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					22C5D0FF1CEB9AA300E18701 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 22C5D0E31CEB9AA300E18701;
+					};
+					22C5D10A1CEB9AA300E18701 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 22C5D0E31CEB9AA300E18701;
+					};
+				};
+			};
+			buildConfigurationList = 22C5D0DF1CEB9AA300E18701 /* Build configuration list for PBXProject "TyphoonIssue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22C5D0DB1CEB9AA300E18701;
+			productRefGroup = 22C5D0E51CEB9AA300E18701 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22C5D0E31CEB9AA300E18701 /* TyphoonIssue */,
+				22C5D0FF1CEB9AA300E18701 /* TyphoonIssueTests */,
+				22C5D10A1CEB9AA300E18701 /* TyphoonIssueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22C5D0E21CEB9AA300E18701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C5D1371CEBAA9700E18701 /* Second.storyboard in Resources */,
+				22C5D0FA1CEB9AA300E18701 /* LaunchScreen.storyboard in Resources */,
+				22C5D0F71CEB9AA300E18701 /* Assets.xcassets in Resources */,
+				22C5D0F51CEB9AA300E18701 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C5D0FE1CEB9AA300E18701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C5D1091CEB9AA300E18701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C5D0E01CEB9AA300E18701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C5D1321CEBA4F900E18701 /* Model.m in Sources */,
+				22C5D12F1CEBA1E900E18701 /* Assembly.m in Sources */,
+				22C5D0F21CEB9AA300E18701 /* SecondViewController.m in Sources */,
+				22C5D0EC1CEB9AA300E18701 /* AppDelegate.m in Sources */,
+				22C5D0EF1CEB9AA300E18701 /* FirstViewController.m in Sources */,
+				22C5D0E91CEB9AA300E18701 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C5D0FC1CEB9AA300E18701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C5D1051CEB9AA300E18701 /* TyphoonIssueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C5D1071CEB9AA300E18701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C5D1101CEB9AA300E18701 /* TyphoonIssueUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22C5D1021CEB9AA300E18701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C5D0E31CEB9AA300E18701 /* TyphoonIssue */;
+			targetProxy = 22C5D1011CEB9AA300E18701 /* PBXContainerItemProxy */;
+		};
+		22C5D10D1CEB9AA300E18701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22C5D0E31CEB9AA300E18701 /* TyphoonIssue */;
+			targetProxy = 22C5D10C1CEB9AA300E18701 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22C5D0F31CEB9AA300E18701 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C5D0F41CEB9AA300E18701 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22C5D0F81CEB9AA300E18701 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C5D0F91CEB9AA300E18701 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22C5D1121CEB9AA300E18701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CARTHAGE_DIR = "$(PROJECT_DIR)/Carthage";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(CARTHAGE_DIR)/Build/iOS";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22C5D1131CEB9AA300E18701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CARTHAGE_DIR = "$(PROJECT_DIR)/Carthage";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(CARTHAGE_DIR)/Build/iOS";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22C5D1151CEB9AA300E18701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = TyphoonIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixactualsoftware.TyphoonIssue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22C5D1161CEB9AA300E18701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = TyphoonIssue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixactualsoftware.TyphoonIssue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22C5D1181CEB9AA300E18701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TyphoonIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixactualsoftware.TyphoonIssueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TyphoonIssue.app/TyphoonIssue";
+			};
+			name = Debug;
+		};
+		22C5D1191CEB9AA300E18701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TyphoonIssueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixactualsoftware.TyphoonIssueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TyphoonIssue.app/TyphoonIssue";
+			};
+			name = Release;
+		};
+		22C5D11B1CEB9AA300E18701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TyphoonIssueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixactualsoftware.TyphoonIssueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TyphoonIssue;
+			};
+			name = Debug;
+		};
+		22C5D11C1CEB9AA300E18701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TyphoonIssueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sixactualsoftware.TyphoonIssueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TyphoonIssue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22C5D0DF1CEB9AA300E18701 /* Build configuration list for PBXProject "TyphoonIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C5D1121CEB9AA300E18701 /* Debug */,
+				22C5D1131CEB9AA300E18701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C5D1141CEB9AA300E18701 /* Build configuration list for PBXNativeTarget "TyphoonIssue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C5D1151CEB9AA300E18701 /* Debug */,
+				22C5D1161CEB9AA300E18701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C5D1171CEB9AA300E18701 /* Build configuration list for PBXNativeTarget "TyphoonIssueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C5D1181CEB9AA300E18701 /* Debug */,
+				22C5D1191CEB9AA300E18701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C5D11A1CEB9AA300E18701 /* Build configuration list for PBXNativeTarget "TyphoonIssueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C5D11B1CEB9AA300E18701 /* Debug */,
+				22C5D11C1CEB9AA300E18701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22C5D0DC1CEB9AA300E18701 /* Project object */;
+}
